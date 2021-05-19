@@ -1,4 +1,4 @@
-gsap.to("#blue", { stroke: "blue", strokeWidth: 2, fill: "blue", rotate: 360, repeat: -1, transformOrigin: "50% 50%" })
+gsap.to("#blue", { duration: .3, stroke: "orange", strokeWidth: 1.1, fill: "blue", opacity: 1, rotate: 5080, repeat: -1, transformOrigin: "50% 50%" })
 gsap.to("#sunbeam", { duration: 3, stroke: "white", strokeWidth: 4, repeat: -1 })
 gsap.from("#sun", { duration: 3, rotate: 360, y: 1200, ease: "elastic.out", transformOrigin: "50% 50%" })
 gsap.to("#Layer-1", { position: "relative", zIndex: 0, opacity: 1 })
@@ -8,7 +8,11 @@ gsap.fromTo("#airball", { opacity: 0 }, { duration: .5, ease: "bounce", opacity:
 gsap.fromTo("#ball", { y: 590, opacity: 1 }, { duration: .5, ease: "bounce", y: 570, repeat: -1, opacity: 1 })
 gsap.fromTo("#ball-lines", { y: 14, opacity: 1 }, { duration: .5, ease: "bounce", transformOrigin: "50% 50%", rotate: -720, y: -6.5, repeat: -1, opacity: 1 })
 gsap.to("#Front_Leg", { duration: .5, y: -2, repeat: -1 })
+gsap.to("#left_arm_strong", { y: 802, duration: 1.5, repeat: -1 })
+gsap.to("#weight", { duration: 1.5, repeat: -1, y: 3 })
 
+gsap.to("#right_arm_strong", { duration: 1.5, y: 752, repeat: -1 })
+gsap.to("#right_weight", { duration: 1.5, y: 3, repeat: -1 })
 let nums = gsap.timeline()
 
 .fromTo("#num1", { y: 526 }, { duration: 1.2, y: 516, opacity: 1, ease: "bounce" }, 0)
