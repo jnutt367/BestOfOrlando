@@ -10,7 +10,7 @@ gsap.fromTo("#ball-lines", { y: 14, opacity: 1 }, { duration: .5, ease: "bounce"
 gsap.to("#Front_Leg", { duration: .5, y: -2, repeat: -1 })
 gsap.to("#left_arm_strong", { y: 802, duration: 1.5, repeat: -1 })
 gsap.to("#weight", { duration: 1.5, repeat: -1, y: 3 })
-gsap.fromTo("#mouth", { opacity: 0 }, { duration: 1.5, opacity: 1, repeat: -1 })
+gsap.fromTo("#mouth", { opacity: 0 }, { fill: "black", duration: 1.5, opacity: 1, repeat: -1 }, 0)
 
 gsap.to("#right_arm_strong", { duration: 1.7, y: 750, repeat: -1 })
 gsap.to("#right_weight", { duration: 1.7, y: 2, repeat: -1 })
