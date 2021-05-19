@@ -4,10 +4,10 @@ gsap.from("#sun", { duration: 3, rotate: 360, y: 1200, ease: "elastic.out", tran
 gsap.to("#Layer-1", { position: "relative", zIndex: 0, opacity: 1 })
 gsap.fromTo("#Soccer_Guy", { opacity: 0, x: -200 }, { position: "relative", duration: 2, x: 0, opacity: 1 })
 gsap.fromTo("#one", { x: 330 }, { opacity: 1, duration: 2, x: 530 })
-gsap.fromTo("#airball", { opacity: 0 }, { opacity: 1, repeat: -1 })
-gsap.fromTo("#ball", { y: 590, opacity: 1 }, { y: 570, repeat: -1, opacity: 1 })
-gsap.fromTo("#ball-lines", { y: 11, opacity: 1 }, { transformOrigin: "50% 50%", rotate: -360, y: -6.5, repeat: -1, opacity: 1 })
-gsap.to("#Front_Leg", { y: -2, repeat: -1 })
+gsap.fromTo("#airball", { opacity: 0 }, { duration: 3, opacity: 1, repeat: -1 })
+gsap.fromTo("#ball", { y: 590, opacity: 1 }, { duration: 3, y: 570, repeat: -1, opacity: 1 })
+gsap.fromTo("#ball-lines", { y: 15, opacity: 1 }, { duration: 3, transformOrigin: "50% 50%", rotate: -360, y: -6.5, repeat: -1, opacity: 1 })
+gsap.to("#Front_Leg", { duration: 3, y: -2, repeat: -1 })
 
 let nums = gsap.timeline()
 
