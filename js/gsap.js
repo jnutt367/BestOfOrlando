@@ -11,8 +11,8 @@ gsap.to("#Front_Leg", { duration: .5, y: -2, repeat: -1 })
 gsap.to("#left_arm_strong", { y: 802, duration: 1.5, repeat: -1 })
 gsap.to("#weight", { duration: 1.5, repeat: -1, y: 3 })
 
-gsap.to("#right_arm_strong", { duration: 1.5, y: 752, repeat: -1 })
-gsap.to("#right_weight", { duration: 1.5, y: 3, repeat: -1 })
+gsap.to("#right_arm_strong", { duration: 1.7, y: 750, repeat: -1 })
+gsap.to("#right_weight", { duration: 1.7, y: 2, repeat: -1 })
 let nums = gsap.timeline()
 
 .fromTo("#num1", { y: 526 }, { duration: 1.2, y: 516, opacity: 1, ease: "bounce" }, 0)
