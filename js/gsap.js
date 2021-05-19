@@ -7,3 +7,9 @@ gsap.fromTo("#airball", { opacity: 0 }, { opacity: 1, repeat: -1 })
 gsap.fromTo("#ball", { y: 590, opacity: 1 }, { y: 570, repeat: -1, opacity: 1 })
 gsap.fromTo("#ball-lines", { y: 11, opacity: 1 }, { transformOrigin: "50% 50%", rotate: -360, y: -6.5, repeat: -1, opacity: 1 })
 gsap.to("#Front_Leg", { y: -2, repeat: -1 })
+
+let nums = gsap.timeline()
+
+.fromTo("#num1", { y: 526 }, { duration: 1.2, y: 516, opacity: 1, ease: "bounce" }, 0)
+    .fromTo("#num2", { y: 526 }, { duration: 1.5, y: 516, opacity: 1, ease: "bounce" }, .1)
+    .fromTo("#num3", { y: 538 }, { duration: 2, y: 526, opacity: 1, ease: "bounce" }, .3)
