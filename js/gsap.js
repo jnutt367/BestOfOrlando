@@ -1,6 +1,6 @@
 gsap.from("html", { duration: 2, opacity: 0, ease: "bounce", y: -200 })
 gsap.to("#blue", { duration: .3, stroke: "orange", strokeWidth: 1.1, fill: "blue", opacity: 1, rotate: 5080, repeat: -1, transformOrigin: "50% 50%" })
-gsap.to("#sunbeam", { duration: 3, stroke: "white", strokeWidth: 4, repeat: -1 })
+gsap.to("#sunbeam", { duration: 3, stroke: "yellow", opacity: .2, strokeWidth: 4, repeat: -1 })
 gsap.from("#sun", { duration: 3, rotate: 360, y: 1200, ease: "elastic.out", transformOrigin: "50% 50%" })
 gsap.to("#Layer-1", { position: "relative", zIndex: 0, opacity: 1 })
 gsap.fromTo("#Soccer_Guy", { opacity: 0, x: -20 }, { position: "relative", duration: 2, x: -30, opacity: 1 })
