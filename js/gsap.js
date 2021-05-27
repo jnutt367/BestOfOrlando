@@ -20,6 +20,7 @@ gsap.to("#right_weight", { duration: 1.7, y: 2, repeat: -1 })
 gsap.to("#dog", { y: -10, repeat: 3 }, 5)
 gsap.to("#flowers", { x: -50 })
 gsap.to("#orange", { fill: "orange" }, 5)
+gsap.to("#radio", { fill: "pink" }, 2)
 let nums = gsap.timeline()
 
 .fromTo("#num1", { y: 526 }, { duration: 1.2, y: 516, opacity: 1, ease: "bounce" }, 0)
