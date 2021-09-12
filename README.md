@@ -21,6 +21,6 @@ Preview the  live site on [Best Of Orlando](https://jnutt367.github.io/BestOfOrl
 - 💬 Let me know what else you want to see animated?
 
 
-- 💬 Ask me about ...How fun it is to animate stuff?
+- 💬 Ask me about ...How fun it is to animate stuff with gsap3?
 - 📫 How to reach me: ...jnutt367@gmail.com or 407-687-7889
 - 😄 Pronouns: ...He/Him
